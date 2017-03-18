@@ -55,9 +55,9 @@ var bw2araMap = {
 
 function makeAra2bwMap() {
   var map = {};
-  bw2araMap.forEach(function (v, k) {
-    map[v] = k;
-  });
+  for (var k in bw2araMap) {
+    map[bw2araMap[k]] = k;
+  }
   return map;
 }
 var ara2bwMap = makeAra2bwMap();
