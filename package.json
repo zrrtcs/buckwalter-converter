@@ -1,0 +1,9 @@
+{
+  "name": "buckwalter-converter-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zrrtcs/buckwalter-converter.git",
+  "author": "Aizzat Suhardi <aizzat.suhardi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}
